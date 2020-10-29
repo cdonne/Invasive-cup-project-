@@ -1,14 +1,24 @@
 # Statistical Analysis
 
-## 9/16/20
+## 10/29/20
 
-### SPSS  
-- KS test was run for the variables Growth rate 3mm, Age at maturity, final length and growth rate final to see if the data is distributed normally 
-- Both growth rate 3mm and final length fail to reject the null hypothesis p>0.05
-- Age at maturity and growth rate final have p<.05. I think I will have to do a natural log transformation for these variables since they aren't distributed normally.  
-- did a log transformation (log 10) for age at maturity. p-value is .200 so the data is distrubted normally. 
-### SAS
+### Data Transformations 
+-for both the Donne and Larkin data all variables were multipled by 100 and then a box cox transformation was applied to achieve normality 
 
-- created a box plot for final length comparing for each population. Looking at the median it seems PA has the greatest final length but will need to verify that with descriptive statistics. Again, I need to ask about the dead snails or not yet mature snails. 
+### Donne data normality 
+-Kolmogorov–Smirnov (K-S) test was used for normality
+-Growth rate 3mm: stat= .097 df=73 sig=.085
+-Age at maturity: stat=.068 df=73 sig=.200
+-Final length: stat=.076 df=73 sig=.200 
 
-- it is intersting that Pc seems to have the fastest growth rate but has highly variable final lengths. I will need to think about this more and see what the descriptive statistics show 
+### Larkin data normality 
+-Kolmogorov–Smirnov (K-S) test was used for normality 
+-Growth rate 3mm: stat=.05 df=231 sig=.067
+-Age at maturity: stat=.053 df=231 sig=.200
+-Final length: stat=.030 df=231 sig=.200
+
+### Linear regression 
+-to see if growth rate was assocaited with age at maturity and final length 
+-Final length Rsq= .026 sig=.005
+-Age at maturity Rsq=.008 sig=.110 
+-saved residuals for final length to correct for growth rate 

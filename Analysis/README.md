@@ -7,9 +7,9 @@
 
 ### Donne data normality 
 - Kolmogorov–Smirnov (K-S) test was used for normality
-- Growth rate 3mm: stat= .097 df=73 sig=.085
-- Age at maturity: stat=.068 df=73 sig=.200
-- Final length: stat=.076 df=73 sig=.200 
+- Growth rate 3mm: stat= .069 df=70 sig=.200
+- Age at maturity: stat=.068 df=70 sig=.200
+- Final length: stat=.076 df=70 sig=.200 
 
 ### Larkin data normality 
 - Kolmogorov–Smirnov (K-S) test was used for normality 
@@ -19,6 +19,6 @@
 
 ### Linear regression 
 - to see if growth rate was assocaited with age at maturity and final length 
-- Final length Rsq= .026 sig=.005
-- Age at maturity Rsq=.008 sig=.110 
+- Final length Rsq=  sig=
+- Age at maturity Rsq= sig= 
 - saved residuals for final length to correct for growth rate 

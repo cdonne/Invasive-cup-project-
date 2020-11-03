@@ -19,6 +19,6 @@
 
 ### Linear regression 
 - to see if growth rate was assocaited with age at maturity and final length 
-- Final length Rsq=  sig=
-- Age at maturity Rsq= sig= 
-- saved residuals for final length to correct for growth rate 
+- Age at maturity Rsq=0.515  sig=.000
+- Final length Rsq=0.001 sig= .524
+- saved residuals for age at maturity to correct for growth rate 

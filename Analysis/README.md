@@ -21,3 +21,10 @@
 - Age at maturity Rsq=0.246  p<0.001
 - Final length Rsq=0.051 p<0.001
 - saved residuals for age at maturity to correct for growth rate 
+
+## 2/24/21
+
+### General linear model 
+- a nested design was used to assess the differences in life history traits between invasive and native snails
+- see output file for the tables 
+- both growth rate and age at maturity were signficantly different between invasive and native 

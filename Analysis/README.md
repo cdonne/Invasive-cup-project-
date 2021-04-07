@@ -22,5 +22,5 @@
 
 ### General linear model 
 - a nested design was used to assess the differences in life history traits between invasive and native snails
-- see output file for the tables 
-- both growth rate and age at maturity were signficantly different between invasive and native 
+- see output file for the tables (Nested_GLMoutput)
+

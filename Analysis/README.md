@@ -20,6 +20,10 @@
 
 ## 2/24/21
 
+### Kendall rank sum correlation test 
+- used to evaluate the relationship between growth rate and age at maturity and final length in the invasive snails 
+- see output file for results (Kendalloutput) 
+
 ### General linear model 
 - a nested design was used to assess the differences in life history traits between invasive and native snails
 - see output file for the tables (Nested_GLMoutput)

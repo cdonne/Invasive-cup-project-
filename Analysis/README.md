@@ -28,3 +28,8 @@
 - a nested design was used to assess the differences in life history traits between invasive and native snails
 - see output file for the tables (Nested_GLMoutput)
 
+## 5/19/21
+
+### Kendall rank sum correlation test 
+- used to evaluate whether genetic variation could be associated with phenotypic variaiton in invasive poulations 
+- see output file for results (KendallSNPoutput) 

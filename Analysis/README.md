@@ -33,3 +33,9 @@
 ### Kendall rank sum correlation test 
 - used to evaluate whether genetic variation could be associated with phenotypic variaiton in invasive poulations 
 - see output file for results (KendallSNPoutput) 
+
+## 6/10/21
+
+### Kendall rank sum correlation test
+- similar to the previous correlation analysis but using F values from ANOVA/ANCOVA analysis for all life history traits within populations
+- output file (SNP_correlation) 

@@ -24,7 +24,7 @@
 - used to evaluate the relationship between growth rate and age at maturity and final length in the invasive snails 
 - see output file for results (Kendalloutput) 
 
-### General linear model 
+### General linear model (ANOVA/ANCOVA) 
 - a nested design was used to assess the differences in life history traits between invasive and native snails
 - see output file for the tables (Nested_GLMoutput)
 
@@ -36,6 +36,10 @@
 
 ## 6/10/21
 
+### Family ANOVA/ANCOVA
+- comparing life history traits across families within populations. If SNP diversity predicts phenotypic diversity, then families should be more likely to be significantly different for life history traits within pops with higher vs. lower SNP diversity
+- see output file for results (Population_ GLM_output) 
+- 
 ### Kendall rank sum correlation test
 - similar to the previous correlation analysis but using F values from ANOVA/ANCOVA analysis for all life history traits within populations
 - output file (SNP_correlation) 

@@ -39,7 +39,7 @@
 ### Family ANOVA/ANCOVA
 - comparing life history traits across families within populations. If SNP diversity predicts phenotypic diversity, then families should be more likely to be significantly different for life history traits within pops with higher vs. lower SNP diversity
 - see output file for results (Population_ GLM_output) 
-- 
+
 ### Kendall rank sum correlation test
 - similar to the previous correlation analysis but using F values from ANOVA/ANCOVA analysis for all life history traits within populations
 - output file (SNP_correlation) 
